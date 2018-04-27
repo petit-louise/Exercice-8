@@ -1,0 +1,21 @@
+# INSTRUCTIONS
+Adapter le site Ilayoga avec bootstrap 4
+
+## HTML
+- intégrer bootstrap 4 via un CDN (partie CSS et javascript))
+
+## CSS
+- Utiliser les class proposées par Bootstrap 4 pour adapter au mieux les deux pages du site.
+
+- Taille de la police :
+    - par défaut : 1em
+    - nav : 1.5em
+    - titre header : 4em
+
+- Police google fonts utilisées :
+    - Titre et Nav : "Kaushan Script"   font-family: 'Kaushan Script', cursive;
+    - Texte : "Playfair Display"             font-family: 'Playfair Display', serif;
+
+	- background footer : #8b76d2
+	- background cellule th : #c4a9df
+	- couleur des bordures input, select et fieldset : #ccc
