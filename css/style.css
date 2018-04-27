@@ -1,0 +1,295 @@
+
+/*GLOBAL */
+* 
+{
+	box-sizing: border-box;
+	outline: none;
+}
+
+/* TYPO*/
+@font-face
+{
+	font-family: "Kaushan Script";
+	src: url(../fonts/KaushanScript-Regular.otf);
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Playfair Display";
+	src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Regular.otf);
+	font-weight: normal;
+}
+
+body 
+{
+	font-family: "Playfair Display", Arial;
+	margin: 0;
+	color: #34495E;
+	line-height: 1.8;
+}
+article 
+{
+	text-align: center;
+}
+
+
+/* NAV */
+nav 
+{	
+	text-align: center;
+	background-color: rgba(255,255,255,0.3);
+}
+
+nav a 
+{
+	text-align: center;
+	font-size: 1.5em;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0;
+	color: white;
+	font-family: "Kaushan Script";
+}
+
+nav a .fa 
+{
+	display: block;
+}
+
+/* HEADER */
+header 
+{
+	background-image: url(../img/fond.jpg);
+	background-size: cover;
+	background-position: center;
+}
+header p
+{
+	margin-bottom:130px;
+}
+
+h1 
+{
+	font-size: 4em;
+	font-family: "Kaushan Script", cursive; 
+	font-weight: normal;
+	text-align: center;
+	color: white;	
+	padding: 50px 0 300px;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+/* MAIN */
+
+h2
+{
+	font-weight: normal;
+	text-align: center;
+	color: black;
+	font-family: "Kaushan Script", cursive;
+	font-size: 2em;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+h3 
+{
+	font-weight: normal;
+	text-align: center;
+	font-size: 2em;
+}
+#promo 
+{
+	background-color: rgba(255,255,255,0.15);
+	display: block;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+.paragraphe
+{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+	border-bottom-width: 90%;
+
+}
+article p
+{
+	text-align: justify;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 30px;
+}
+.float-right
+{
+	margin-left: 10px;
+	margin-top: 10px;	
+}
+.float-left
+{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#description 
+{
+	background-color: #8A62C2;
+	background-image: url(../img/background_section.jpg);
+	background-size: cover;
+	background-position: left bottom;
+	color: white;
+	display:flex;
+	justify-content:space-around;
+	line-height: 2;
+	padding-top: 30px;
+	width: 100%;
+}
+#description h2
+{
+	color: white;
+}
+#description p
+{
+	text-align: center;
+}
+#description img
+{
+	margin-bottom: 15px;
+}
+iframe 
+{
+	height:450px;
+	width: 100%;
+}
+
+
+/* TABLEAU */
+#table h2 
+{
+	font-size: 2em;
+	margin: 25px 0;
+}
+
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto 25px;
+}
+
+table thead 
+{
+	font-family: "Kaushan Script";
+	font-weight: normal;
+	font-size: 1.6em;
+	background-color: #C4A9DF;
+	border: 1px solid #C4A9DF;
+	color: white;
+	padding: 10px;
+}
+
+table tr:nth-child(even) 
+{
+	background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+
+	background-color: #FAFAFA;
+}
+
+table tr:first-child 
+{
+	background-color: inherit;
+}
+table th 
+{
+	text-align: left;
+	font-weight: normal;
+	padding: 10px 25px;
+}
+
+table tr td 
+{
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+table tr td:first-child 
+{
+	text-align: left;
+}
+
+/* FORMULAIRE */
+legend 
+{
+	font-size: 1.5em;
+	text-align: left;
+	padding-left: 5px;
+}
+
+fieldset 
+{
+	border: 1px solid #dedede;
+	margin-bottom: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+legend
+{
+	display: inline;
+	width: auto;
+	padding-right: 5px;
+}
+#info
+{
+	text-align: center;
+}
+
+
+#info form input[type=text] 
+{
+	border: 0;
+	border-bottom: 1px solid #dedede;
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#info form select 
+{
+	padding: 10px;
+	margin-bottom: 25px;
+
+}
+
+#reputation
+{
+	width: 90%;
+}
+.btn 
+{	
+	color: white;
+	padding: 10px 25px;
+	border: 0;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+
+/* FOOTER */
+footer 
+{
+	background-color: #8B76D2;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+footer p
+{
+	padding: 10px ;
+}
